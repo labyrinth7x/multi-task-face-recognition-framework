@@ -11,9 +11,9 @@ It is for our IJCNN'20 paper [Neighborhood-Aware Attention Network for Semi-supe
 - tensorboardX
 
 ## Data Preparation
-- Download the full MS-Celeb-1M realeased by [ArcFace](https://github.com/deepinsight/insightface) from [baidu](https://pan.baidu.com/s/1S6LJZGdqcZRle1vlcMzHOQ) or [dropbox](https://www.dropbox.com/s/wpx6tqjf0y5mf6r/faces_ms1m-refine-v2_112x112.zip?dl=0), and put them into the folder ```faces_emore```.
-- Download the splitted image list produced by [learn-to-cluster](https://github.com/yl-1993/learn-to-cluster) from [GoogleDrive](https://drive.google.com/file/d/1kurPWh6dm3dWQOLqUAeE-fxHrdnjaULB/view?usp=sharing) or [OneDrive](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155095455_link_cuhk_edu_hk/ET7lHxOXSjtDiMsgqzLK9LgBi_QW0WVzgZdv2UBzE1Bgzg?e=jZ7kCS).
-- Re-arrange the dataset using ```sort.py```. The folder structure of ```emore``` is the same as:
+- Download the full MS-Celeb-1M realeased by [ArcFace](https://github.com/deepinsight/insightface) from [baidu](https://pan.baidu.com/s/1S6LJZGdqcZRle1vlcMzHOQ) or [dropbox](https://www.dropbox.com/s/wpx6tqjf0y5mf6r/faces_ms1m-refine-v2_112x112.zip?dl=0), and move them to the folder ```faces_emore```.
+- Download the splitted image list produced by [learn-to-cluster](https://github.com/yl-1993/learn-to-cluster) from [GoogleDrive](https://drive.google.com/file/d/1kurPWh6dm3dWQOLqUAeE-fxHrdnjaULB/view?usp=sharing) or [OneDrive](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155095455_link_cuhk_edu_hk/ET7lHxOXSjtDiMsgqzLK9LgBi_QW0WVzgZdv2UBzE1Bgzg?e=jZ7kCS), and move them to the folder ```lists```.
+- Re-arrange the dataset using ```preprocess.py```. The folder structure of ```emore``` is the same as:
   ```
   emore
    ├── trainset
