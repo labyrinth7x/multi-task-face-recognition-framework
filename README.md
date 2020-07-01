@@ -2,12 +2,12 @@
 
 ## Introduction
 This repository is a multi-task face recognition framework, built on top of the [PyTorch implementation](https://github.com/TreB1eN/InsightFace_Pytorch) of ArcFace.  
-It is for our IJCNN'20 paper [Neighborhood-Aware Attention Network for Semi-supervised Face Recognition](https://drive.google.com/file/d/1fNarQTLGRcmf06C1Uhytjcbn3U9hknf0/view?usp=sharing). 
-You may refer to the repository [NAAN](https://github.com/labyrinth7x/NAAN) for the fully semi-supervised implementation.
+It is for our IJCNN'20 paper [Neighborhood-Aware Attention Network for Semi-supervised Face Recognition](https://drive.google.com/file/d/1fNarQTLGRcmf06C1Uhytjcbn3U9hknf0/view?usp=sharing).   
+You may refer to the repository [NAAN](https://github.com/labyrinth7x/NAAN) for the fully semi-supervised implementation of our paper.
 
 ## Requirments
-- Python >= 3.5
-- Pytorch >= 1.0.0
+- python >= 3.5
+- pytorch >= 1.0.0
 - numpy
 - tensorboardX
 
